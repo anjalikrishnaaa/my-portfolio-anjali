@@ -1,0 +1,133 @@
+body
+{
+font-family: Arial, Helvetica, sans-serif;
+background-color:#B6D094;
+color:brown;
+margin: 0%;
+padding: 0%;
+}
+.container
+{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 0 20px;
+}
+nav
+{
+    position: sticky;
+    top: 10px;
+background-color:#6b6d76;
+padding: 10px 0;
+}
+nav h1
+{
+margin: 0;
+display: inline;
+}
+nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+nav ul li
+{
+    display: inline;
+    margin-left: 20px;
+}
+nav ul li a
+{
+color: #a5edf2;
+text-decoration: none;
+transition: 0.5s;
+}
+nav ul li a:hover{
+    padding: 10px;
+    background-color: #B6D094;
+    color: beige;
+
+}
+
+header
+{
+    background-color: #c4b2c2;
+    padding: 20px 0;
+}
+.profile
+{
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:5px solid #a5edf2 ;
+    margin-right: 20px;
+}
+main
+{
+    padding: 50px 0;
+}
+section
+{
+    margin-bottom: 40px;
+}
+section h2
+{
+    color:black;
+}
+#contact
+{
+    background-color: #ae98bc;
+    padding: 40px 0;
+    text-align: center;
+}
+.contact1
+{
+    margin-bottom: 20px;
+}
+.contact-info{
+    color:black;
+}
+.contact-info p
+{
+    margin-bottom: 0;
+}
+
+.contact-info ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+.contact-info ul li
+{
+    display: inline;
+    margin: 0 10px;
+}
+.insta
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 25%;
+}
+.insta:hover
+{
+    opacity: 0.7;
+    cursor:pointer;
+}
+.snap
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 25%;
+}
+.snap:hover
+{
+    opacity: 0.7;
+    cursor:pointer;
+
+}
